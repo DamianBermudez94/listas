@@ -1,0 +1,27 @@
+{
+  "name": "vercel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:DamianBermudez94/vercel-intro.git",
+  "author": "damian bermudez <bermudezdamian7@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next"
+  },
+  "dependencies": {
+    "airtable": "^0.11.4",
+    "algoliasearch": "^4.13.1",
+    "micro": "^9.3.4",
+    "micro-method-router": "^0.1.0",
+    "next": "^12.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/react": "^18.0.14",
+    "typescript": "^4.7.4"
+  }
+}
